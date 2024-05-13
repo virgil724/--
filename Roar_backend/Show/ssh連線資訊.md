@@ -1,0 +1,1 @@
+`ssh -i {id_rsa_path} ubuntu@34.121.85.42`

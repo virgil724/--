@@ -1,0 +1,13 @@
+POST http://127.0.0.1:8000/operation/api/dj-rest-auth/login/
+Content-Type: application/json
+
+{
+    "username": "json1235",
+    "password": "virgil246456"
+}
+
+###
+POST http://127.0.0.1:8000/operation/api/dj-rest-auth/token/verify/
+Content-Type: application/json
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE0OTcwMjE3LCJpYXQiOjE3MTQ5Njk5MTcsImp0aSI6ImQ1YjU2OWNmZmQzMDQ0Njk5YTQ0MTczNDA5Y2Y5ZDU5IiwidXNlcl9pZCI6MX0.Co-dj3VErsVTNo5fNVAmcjs5gngVyZC-kJEyw_yTlfw"}
